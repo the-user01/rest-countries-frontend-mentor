@@ -1,0 +1,126 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 10px 30px;
+    background-color: white;
+}
+
+.dark-mode-btn{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dark-mode-btn img{
+    height: 25px;
+    width: 25px;
+    margin-top: 3px;
+    padding-right: 3px;
+}
+
+.main-sec{
+    padding-top: 10px;
+    background-color: hsl(0, 1%, 82%);
+}
+
+.search-input{
+    border: none;
+    outline: none;
+    background-color: white;
+    width: 380px;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    padding: 7px;
+}
+
+.dropdown-btn{
+    border: none;
+    background-color: white;
+    outline: none;
+    font-size: 16px;
+    height: 45px;
+}
+
+.first-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-sec{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.country-div{
+    height: 220px;
+    width: 220px;
+    margin: 20px;
+    line-height: 1;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.country-div h5{
+    font-size: 18px;
+    margin-left: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+.country-div p{
+    font-size: 11px;
+    margin-left: 25px;
+    color: black;
+}
+
+.country-div img{
+    width: 220px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.countryDiv2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 7%;
+}
+
+.countryDiv2 h3{
+    font-size: 40px;
+    font: 700;
+    margin-bottom: 30px;
+}
+
+.countryDiv2 img{
+    height: 320px;
+    width: 320px;
+    margin-left: 20px;
+}
+
+.innerSec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.innerInnerpart{
+    margin-top: 66px;
+}
+
+.borders{
+    margin-top: 20px;
+}
+
+.borderName{
+    height: 50px;
+    width: 90px;
+    border: 1px solid lightblue;
+    padding: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
+}
